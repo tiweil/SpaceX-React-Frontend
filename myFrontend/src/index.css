@@ -1,0 +1,10 @@
+body,html, #root{
+  height: 100%;
+  /* background-color:rgba(63, 69, 74, 0.349); */
+  font-family:Century Gothic;
+  background-image: url("../../image/download\ \(1\).jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

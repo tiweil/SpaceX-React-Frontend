@@ -1,0 +1,104 @@
+html,body,#root{
+  margin:0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  /* background-color: black; */
+
+}
+
+.HomePage{
+  padding: 30px;
+
+}
+
+.Buttons{
+  text-align: left;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+}
+.displayCard {
+text-align: center;
+}
+.card {
+/* max-width: 50%; */
+display: inline-block;
+border: none;
+background-color:rgba(63, 69, 74, 0);
+}
+.card-container{
+  background-color: white;
+
+float:left;
+font-size: 15px;
+margin: 20px;
+width: 500px;
+height: 400px;
+overflow: hidden;
+box-shadow: 0px 0px 15px -5px;
+transition: 0.5s;
+animation: ease-in-out;
+}
+.card-container:hover {
+transform: scale(1.1);
+box-shadow: 0px 0px 15px 0px;
+}
+.card-container  img {
+  overflow: hidden;
+  height: 200px;
+  width: 100%;
+}
+.dest{
+  font-weight: 600;
+}
+.fixed-bottom{
+  text-align: center;
+  position: fixed;
+  bottom: 1px;
+  left:0px;
+  background-color: white;
+  margin:auto;
+  box-shadow: 0px 0px 5px;
+  border-radius: 5px;
+
+  /* margin-left: auto; 
+  margin-right: auto; */
+}
+
+@media screen and (max-width: 830px) {
+.card {
+  padding: 1%;
+  display: inline-block;
+}
+}
+
+.btn:hover{
+box-shadow: 0px 0px 15px 0px;
+
+}
+
+.Buttons{
+margin-bottom:20px;
+margin-top: -10px;
+}
+p{
+  text-align: left;
+  padding-left:10px;
+  padding-top:5px;
+}
+.special{
+  padding-left:0;
+  padding-top:0;
+  text-align: center;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  background-color: rgba(255, 255, 255, 0.293);
+  border: 2px solid #000;
+  box-shadow: 24;
+  /* p: 4; */
+}
